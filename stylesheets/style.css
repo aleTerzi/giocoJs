@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	font-family: calibri;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 400px;
+	width: 1000px;
+	margin: auto;
+	background-image: url('../pictures/desertBackground.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+
+}
+#character {
+	height:240px;
+	position: absolute;
+	bottom: 40;
+	left: 40;
+}

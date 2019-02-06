@@ -1,0 +1,8 @@
+GENERICHE
+pugno; calcio; salto
+MOSSE
+ogni pg ha 2 mosse più una speciale che si carica con le mosse e le azioni Generiche
+
+ogni pg ha una forza e una velocità specifica
+
+si programma ad oggetti.
