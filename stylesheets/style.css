@@ -12,7 +12,8 @@ body {
 	background-image: url('../pictures/desertBackground.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;   
+    background-position: center center;
+		position: relative;
 
 }
 #character {
