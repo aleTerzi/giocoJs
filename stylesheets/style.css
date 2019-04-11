@@ -16,9 +16,17 @@ body {
 		position: relative;
 
 }
-#character {
+.characters {
 	height:240px;
 	position: absolute;
 	bottom: 40;
 	left: 40;
+}
+
+#character1 {
+	left: 40;
+}
+
+#character2 {
+	left: 820;
 }
