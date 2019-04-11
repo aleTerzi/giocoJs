@@ -51,7 +51,20 @@ function Character(speed, strenght, health) {
 
 						character.src = picCharDir+"goku/movDestra.png";
 					break;
+					default:
+						this.azione(event); //e' stato cliccato un tasto diverso dalle freccette
+						break;
 				}
+	}
+
+	this.azione = function(event) {
+		console.log(event.keyCode);
+		switch(event.keyCode) {
+			case 81: //Q pugno
+					//alert('q');
+					this.pugno();
+				break;
+		}
 	}
 
 	this.movimentoFermo = function() { //L'animazione di default quando il personaggio e' fermo
@@ -66,7 +79,16 @@ function Character(speed, strenght, health) {
 		inMov = false;
 	}
 
+	this.pugno = function() {
+		inMov = false;
+		character.src = picCharDir+"goku/pugnoCaricamento.png";
+		setTimeout(function(){character.src = picCharDir+"goku/pugnoSferrato.png"; }, 00);
+		inMov = true;
+	}
+
 }
+
+
 
 
 var champ = new Character(20, 1, 30); //creo l'oggetto
